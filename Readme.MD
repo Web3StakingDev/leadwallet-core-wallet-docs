@@ -39,3 +39,25 @@ For type **btc**, the following parameters should also be sent in the request bo
  }
 ]
 ```
+
+* **outputs**: An array of objects that contain an address and value key-value pair where address is the address to which you're sending coins and value is the amount you're sending.
+
+```json
+[
+ {
+  "address": "mjYuiio09ljkL",
+  "value": 0.001
+ }
+]
+```
+
+* **fee**: Fee that is incurred for sending BTCs.
+
+```json
+{
+ "type": "btc",
+ "fee": 0.0008,
+ "inputs": [...],
+ "outputs": [...]
+}
+```
