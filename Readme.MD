@@ -16,10 +16,15 @@ Note that URLs should be prefixed with **/api/v1/wallet**. For example, to creat
 The following are the presently supported coin types:
 
 **btc** - Bitcoin
+
 **eth** - Ethereum
+
 **doge** - Dogecoin
+
 **dash** - Dashcoin
+
 **tron** - Tron
+
 **ltc** - Litecoin
 
 For type **btc**, the following parameters should also be sent in the request body for the endpoint *send_token*
